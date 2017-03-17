@@ -5,30 +5,23 @@
     <link rel="stylesheet" href="./browser/style.css"></link>
   </head>
   <body>
-    <div class="background">
-      <div class="title-box">
-        <h1 class="page-title">Steven * Universe</h1>
-        <h1 class="page-title red-text">Quote Machine</h1>
+    <div class="page">
+      <div class="header">
+        <h1 class="header__title">Steven * Universe</h1>
+        <h1 class="header__subtitle">Quote Machine</h1>
       </div>
-      <div id="quote-box" class="default-style">
+      <div class="quote-box quote-box--default">
         <img src="./browser/images/title-portrait.jpg"
-          id="character-image"
-          class="image-responsive">
+          class="quote-box__image image-responsive">
         </img>
-        <h4 id="quote-body">
+        <h4 class= "quote-box__body">
           Click to generate quotes!
           <br>
         </h4>
-      <h3 id="quote-attribution">
+      <h3 class="quote-box__attribution">
       </h3>
-        <div class="button-bar">
-          <button id="quote-button" class="btn btn-primary"
-          >New Quote</button>
-          <a id="twitter-button"
-            href="https://twitter.com/intent/tweet?text="
-            target="_blank" >
-          </a>
-        </div>
+      <button class="quote-box__button"
+      >New Quote</button>
       </div>
     </div>
     <script type="text/javascript" src="./browser/javascript/QuoteGenerator.js"></script>
