@@ -53,8 +53,7 @@
 },
 {
 "text":"Now it has all the power of a breakfast. We have to destroy it.",
-"character":"Garnet",
-     
+"character":"Garnet"
 },
 {
 "text":"We don't need to be careful. We just need to be huge.",
@@ -114,8 +113,8 @@
 
 {
 "text":"If every pork chop were perfect, we wouldn't have hot dogs.",
-"character":"Greg",
-  },
+"character":"Greg"
+},
 {
 "text":"Guys, I just had the best idea for an album cover.",
 "character":"Greg"
@@ -409,20 +408,20 @@
 {
 "text":"It's Stevonnie- I am not your baby.",
 "character":"Stevonnie"
-},
+}
 ],
 "portraits":{
-	"Amethyst":"https://raw.githubusercontent.com/ameliavoncat/su-quote-generator/portraits/amethyst-portrait.jpg",
-	"Connie":"https://raw.githubusercontent.com/ameliavoncat/su-quote-generator/portraits/connie-portrait.jpg",
-	"Garnet":"https://raw.githubusercontent.com/ameliavoncat/su-quote-generator/portraits/garnet-portrait.jpg",
-	"Greg":"https://raw.githubusercontent.com/ameliavoncat/su-quote-generator/portraits/greg-portrait.jpg",
-	"Lapis":"https://raw.githubusercontent.com/ameliavoncat/su-quote-generator/portraits/lapis-portrait.jpg",
-	"Pearl":"https://raw.githubusercontent.com/ameliavoncat/su-quote-generator/portraits/pearl-portrait.jpg",
-	"Peridot":"https://raw.githubusercontent.com/ameiavoncat/su-quote-generator/portraits/peridot-portrait.jpg",
-	"Rose":"https://raw.githubusercontent.com/ameliavoncat/su-quote-generator/portraits/rose-portrait.jpg",
-	"Ruby":"https://raw.githubusercontent.com/ameliavoncat/su-quote-generator/portraits/ruby-portrait.jpg",
-	"Sapphire":"https://raw.githubusercontent.com/ameliavoncat/su-quote-generator/portraits/sapphire-portrait.jpg",
-	"Steven":"https://raw.githubusercontent.com/ameliavoncat/su-quote-generator/portraits/steven-portrait.jpg",
-	"Stevonnie":"https://raw.githubusercontent.com/ameliavoncat/su-quote-generator/portraits/stevonnie-portrait.jpg"
-}	
+	"Amethyst":"./browser/images/amethyst-portrait.jpg",
+	"Connie":"./browser/images/connie-portrait.jpg",
+	"Garnet":"./browser/images/garnet-portrait.jpg",
+	"Greg":"./browser/images/greg-portrait.jpg",
+	"Lapis":"./browser/images/lapis-portrait.jpg",
+	"Pearl":"./browser/images/pearl-portrait.jpg",
+	"Peridot":"./browser/images/peridot-portrait.jpg",
+	"Rose":"./browser/images/rose-portrait.jpg",
+	"Ruby":"./browser/images/ruby-portrait.jpg",
+	"Sapphire":"./browser/images/sapphire-portrait.jpg",
+	"Steven":"./browser/images/steven-portrait.jpg",
+	"Stevonnie":"./browser/images/stevonnie-portrait.jpg"
+}
 }
