@@ -1,5 +1,5 @@
-var QuoteGenerator = function(){
-  this.quoteObject;
+var QuoteGenerator = function(path){
+  this.quoteObject = QuoteGenerator.loadJSONForInstance(this, path);
   this.quote;
   this.previousQuote;
 }
