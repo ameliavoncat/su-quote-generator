@@ -23,8 +23,8 @@ QuoteGenerator.prototype.generateQuote = function(){
 }
 
 QuoteGenerator.prototype.displayQuote = function(){
-  document.querySelector("h4.quote-box__body").innerHTML = this.quote.text;
-  document.querySelector("h3.quote-box__attribution").innerHTML = this.quote.character;
+  document.querySelector("h4.quote-box__body__content").innerHTML = this.quote.text;
+  document.querySelector("h3.quote-box__body__attribution").innerHTML = this.quote.character;
   document.querySelector("img.quote-box__image").setAttribute("src", this.quoteObject.portraits[this.quote.character]);
   document.querySelector("div.quote-box").setAttribute("class", `quote-box quote-box--${this.quote.character}`);
 }
