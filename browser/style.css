@@ -4,30 +4,39 @@
 }
 
 body {
-  color:orange;
-  font-family:'crewniverse_font';
+  margin: 0;
+  padding: 0;
+  color: orange;
+  font-family: 'crewniverse_font';
   background-image: url('./images/background.png');
-  background-size:100%;
-  background-repeat:no-repeat;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  max-height: 100%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
-  text-align:center;
-  margin-top:2.2%;
+  margin-top: 0;
+  text-align: center;
 }
 
 .header__subtitle {
-  margin-top:.2em;
   color:#d24111;
 }
 
 .quote-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border:solid;
-  padding-top:1em;
-  margin-top:1.6%;
-  margin-left:20%;
-  margin-right:20%;
-  text-align:center;
+  height: 25rem;
+  width: 40rem;
+  padding: 1rem 0;
 }
 
 .quote-box--default {
@@ -103,19 +112,53 @@ body {
   width:35%;
 }
 
-.quote-box__body{
-  font-size:1.1em;
+.quote-box__body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  font-size: 1.1em;
+  line-height: 1.6;
 }
 
-.quote-box__attribution{
+.quote-box__body__content {
+  height: 4rem;
+}
+
+.quote-box__body__attribution {
+  margin: 0;
   font-size:1.3em;
+  align-self: center;
 }
 
-.quote-box__button {
-  margin: 1rem;
+.quote-button__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-button {
+  margin-top: 0.6rem;
   padding: 10px;
   border-radius: 5px;
   border: none;
-  background-color: black;
-  color: white;
+  background-color: orange;
+  color: #d24111;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@media(max-width: 500px) {
+  .quote-box {
+    height: 16rem;
+    width: 20rem;
+  }
+  .quote-box__body__content {
+    font-size: 0.8em;
+  }
+  .quote-box__body__attribution {
+    font-size: 0.9em;
+  }
+  .header {
+    font-size: 0.8em;
+  }
 }
