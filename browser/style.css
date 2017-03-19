@@ -12,6 +12,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   max-height: 100%;
+  overflow-x: hidden;
 }
 
 .page {
@@ -149,10 +150,14 @@ body {
 
 @media(max-width: 500px) {
   .quote-box {
-    height: 16rem;
+    margin-top: 4rem;
+    height: 18rem;
     width: 20rem;
   }
   .quote-box__body__content {
+    height: 7rem;
+    display: flex;
+    align-items: center;
     font-size: 0.8em;
   }
   .quote-box__body__attribution {
